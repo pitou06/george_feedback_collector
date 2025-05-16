@@ -1,0 +1,63 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-size: large;
+    height: 10px;
+    color: orange;
+    background-color:  grey;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.container
+{
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow:  0 0 10px ;
+}
+
+form label
+{
+    display: block;
+    margin-top: 10px;
+}
+
+button
+{
+    border-style:double;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+input, textarea
+{
+    width: 180px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-style: double;
+    margin-top: 2px;
+}
+
+.required
+{
+    color: red;
+}
+
+.feedback-display
+{
+    padding: 10px;
+    background-color: orange;
+    border-left: 3px solid black;
+    white-space: pre-wrap;
+}
+
